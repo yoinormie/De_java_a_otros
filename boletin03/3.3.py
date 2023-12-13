@@ -1,0 +1,5 @@
+bill100=int(input("Billetes de 100€: "))
+bill20=int(input("Billetes de 20€: "))
+bill5=int(input("Billetes de 5€: "))
+mon=int(input("Monedas de 1€: "))
+print("Tienes "+str((bill100*100)+(bill20*20)+(bill5*5)+mon)+ "€")
